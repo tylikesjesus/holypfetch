@@ -23,7 +23,7 @@ ___________________________________________________________
 
 [Bible verses sourced from here](https://labs.bible.org/)
 
-[ASCII art sourced from here](https://www.asciiart.eu/)
+[ASCII art sourced from here](https://www.asciiart.eu/religion/christianity)
 
 
 
