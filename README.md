@@ -10,14 +10,17 @@ A simple addon for pfetch that gives a bible verse in one of 4 ways
 - Manually with a cross: Run  `holypfetch ` to fetch a random Bible verse along with system information using `pfetch` and overwrite your distro's ASCII art with a custom cross ASCII art.
 - Automatic with a cross: Run  `holypfetch ` to fetch a random Bible verse along with system information using `pfetch` and overwrite your distro's ASCII art with a custom cross ASCII art; this option also runs automatically.
 
-[Bible verses sourced from here](https://labs.bible.org/)
-
-[ASCII art sourced from here](https://www.asciiart.eu/)
-
-
 **#Required files**
 
 [pfetch](https://github.com/dylanaraps/pfetch)
 
 [jq](https://github.com/jqlang/jq)
+
+
+
+[Bible verses sourced from here](https://labs.bible.org/)
+
+[ASCII art sourced from here](https://www.asciiart.eu/)
+
+
 
