@@ -16,6 +16,9 @@ A simple addon for pfetch that gives a bible verse in one of 4 ways
 
 [jq](https://github.com/jqlang/jq)
 
+___________________________________________________________
+
+**#Credits**
 
 
 [Bible verses sourced from here](https://labs.bible.org/)
