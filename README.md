@@ -15,7 +15,7 @@ A simple addon for pfetch that gives a bible verse in one of 4 ways
 [ASCII art sourced from here](https://www.asciiart.eu/)
 
 
-**# Required files**
+**#Required files**
 
 [pfetch](https://github.com/dylanaraps/pfetch)
 
