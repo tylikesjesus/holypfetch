@@ -131,7 +131,7 @@ EOF
         ;;'
 
 # Insert the custom text at line 1349
-awk -v line=1359 -v text=\"\$custom_text\" 'NR == line {print text} {print}' \"\$pfetch_file\" > \"\${pfetch_file}.tmp\"
+awk -v line=1349 -v text=\"\$custom_text\" 'NR == line {print text} {print}' \"\$pfetch_file\" > \"\${pfetch_file}.tmp\"
 
 # Replace the original file with the modified file
 mv \"\${pfetch_file}.tmp\" \"\$pfetch_file\"
