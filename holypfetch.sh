@@ -117,7 +117,7 @@ fi
 # Path to the pfetch file
 pfetch_file=\"/usr/bin/pfetch\"
 
-# Text to add to line 959
+# Text to add to line 1349
 custom_text='                [Cc]ross*)
             read_ascii 4 <<-EOF
 \${c3}    .-.
@@ -130,8 +130,8 @@ custom_text='                [Cc]ross*)
 EOF
         ;;'
 
-# Insert the custom text at line 959
-awk -v line=959 -v text=\"\$custom_text\" 'NR == line {print text} {print}' \"\$pfetch_file\" > \"\${pfetch_file}.tmp\"
+# Insert the custom text at line 1349
+awk -v line=1359 -v text=\"\$custom_text\" 'NR == line {print text} {print}' \"\$pfetch_file\" > \"\${pfetch_file}.tmp\"
 
 # Replace the original file with the modified file
 mv \"\${pfetch_file}.tmp\" \"\$pfetch_file\"
@@ -139,7 +139,7 @@ mv \"\${pfetch_file}.tmp\" \"\$pfetch_file\"
 # Make the pfetch file executable
 chmod +x \"\$pfetch_file\"
 
-echo \"Custom text added to line 959 of pfetch.\"" >> /tmp/holypfetch_tmp_script.sh
+echo \"Custom text added to line 1349 of pfetch.\"" >> /tmp/holypfetch_tmp_script.sh
             chmod +x /tmp/holypfetch_tmp_script.sh
             /tmp/holypfetch_tmp_script.sh
             ;;
@@ -179,7 +179,7 @@ fi
 # Path to the pfetch file
 pfetch_file=\"/usr/bin/pfetch\"
 
-# Text to add to line 959
+# Text to add to line 1349
 custom_text='                [Cc]ross*)
             read_ascii 4 <<-EOF
 \${c3}    .-.
@@ -192,8 +192,8 @@ custom_text='                [Cc]ross*)
 EOF
         ;;'
 
-# Insert the custom text at line 959
-awk -v line=959 -v text=\"\$custom_text\" 'NR == line {print text} {print}' \"\$pfetch_file\" > \"\${pfetch_file}.tmp\"
+# Insert the custom text at line 1349
+awk -v line=1349 -v text=\"\$custom_text\" 'NR == line {print text} {print}' \"\$pfetch_file\" > \"\${pfetch_file}.tmp\"
 
 # Replace the original file with the modified file
 mv \"\${pfetch_file}.tmp\" \"\$pfetch_file\"
@@ -201,7 +201,7 @@ mv \"\${pfetch_file}.tmp\" \"\$pfetch_file\"
 # Make the pfetch file executable
 chmod +x \"\$pfetch_file\"
 
-echo \"Custom text added to line 959 of pfetch.\"" >> /tmp/holypfetch_tmp_script.sh
+echo \"Custom text added to line 1349 of pfetch.\"" >> /tmp/holypfetch_tmp_script.sh
 chmod +x /tmp/holypfetch_tmp_script.sh
 /tmp/holypfetch_tmp_script.sh
             ;;
